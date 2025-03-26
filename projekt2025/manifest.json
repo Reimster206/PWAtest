@@ -1,0 +1,22 @@
+{
+    "name": "Test PWA Adam",
+    "short_name": "TestPWA",
+    "start_url": ".",
+    "background_color": "#171810",
+    "theme_color": "#03fa6e",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "img/logo192.png",
+            "sizes": "192x192",
+            "type": "img/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/logo512.png",
+            "sizes": "512x512",
+            "type": "img/png",
+            "purpose": "maskable"
+        }
+    ]
+}
