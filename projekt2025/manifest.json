@@ -2,8 +2,8 @@
     "name": "Test PWA Adam",
     "short_name": "TestPWA",
     "start_url": ".",
-    "background_color": "#171810",
-    "theme_color": "#03fa6e",
+    "background_color": "#1a1a40",
+    "theme_color": "#000",
     "display": "standalone",
     "icons": [
         {
