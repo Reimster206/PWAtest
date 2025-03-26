@@ -13,3 +13,12 @@ self.addEventListener("fetch",e=>{
         })
     )
 });
+
+self.addEventListener("push",(event)=>{
+    event.waitUntil(
+        self.registration.showNotification('Sieeema',{
+            body:"kurde faja ale jaja",
+            icon: "img/logo192.png",
+        })
+    );
+});
