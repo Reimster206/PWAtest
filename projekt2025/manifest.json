@@ -11,6 +11,7 @@
     "scope": "https://reimster206.github.io/PWAtest/projekt2025/",
     "prefer_related_applications": true,
     "dir": "auto",
+    "handle_links":"preferred",
     "icons": [
         {
             "src": "img/logo192.png",
