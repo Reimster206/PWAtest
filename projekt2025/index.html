@@ -11,9 +11,27 @@
     <link rel="apple-touch-icon" href="img/logo192.png">
 </head>
 <body>
-    <h1>Aplikacja testowa</h1>
-    <h2>Adam</h2>
-    <img src="img/logo192.png" alt="logo192">
+    <nav>
+        <h2 onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">MyPortfolio</h2>
+    </nav>
+    
+    
+    
+      <header>
+        <canvas id="particles"></canvas>
+        <img src="img/ADAM.png" alt="My Face">
+        <div class="hero-text">
+          <h1>I'm Adam</h1>
+          <h2><span id="typed"></span></h2>
+          <button class="youtube-btn" onclick="window.open('https://www.youtube.com/@adambalekowski3772', '_blank')">Watch My YouTube!</button>
+        </div>
+      </header>
+
+      <footer>
+        Made with ❤️ to inspire. Follow me on YouTube!
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="src/particles.js"></script>
     <script src="src/index.js"></script>
 </body>
 </html>
